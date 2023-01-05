@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import App from "./_app";
 
 export default function Home() {
   return (
@@ -15,7 +16,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        {/* Setting the the header of the App */}
+        <div className={styles.heading}>
+          <div className={styles.headingWrapper}>
+            {[...new Array(12)].map((e, i) => (
+              <div className={styles.headerContainer} key={i}>
+                <Header />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className={styles.mainWrapper}>
+          {[...new Array(34)].map((e, i) => (
+            <Card key={i} />
+          ))}
+        </div>
+        <Footer />
       </main>
     </>
   );
