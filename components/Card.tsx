@@ -1,13 +1,45 @@
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
-import hotel_image from "../assets/hotel_picture.jpeg";
+import { BsDot } from "react-icons/bs";
+import hotelImage from "../assets/hotel_picture.jpeg";
 import styles from "../styles/Home.module.css";
+import AliceCarousel, { DotsItem } from "react-alice-carousel";
 
 export default function Card() {
+  const handleDragStart = (e) => e.preventDefault();
+
+  const items = [
+    <Image
+      src={hotelImage}
+      onDragStart={handleDragStart}
+      role="presentation"
+    />,
+    <Image
+      src={hotelImage}
+      onDragStart={handleDragStart}
+      role="presentation"
+    />,
+    <Image
+      src={hotelImage}
+      onDragStart={handleDragStart}
+      role="presentation"
+    />,
+  ];
+
   return (
     <div className={styles.card}>
       <div className={styles.imageHolder}>
-        <Image src={hotel_image} alt="hotel_picture" />
+        {/* <Image src={hotelImage} alt="hotel_picture" /> */}
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          controlsStrategy="alternate"
+          // renderDotsItem={(e: DotsItem) => (
+          //   <div className={styles.carouselDot}>
+          //     <BsDot />
+          //   </div>
+          // )}
+        />
       </div>
       <div className={styles.descriptions}>
         <div>

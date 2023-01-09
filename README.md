@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Hotels & Go
 
-## Getting Started
+Hotels & Go is a platform that is mean to serve every individual in the world who wants to travel the world, it shows all hotels and their beautiful views so that they can be accommodated based on their choice.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
+- Get all hotels
+- Get one hotel descriptions
+
+### Installation
+
+Install the project using yarn
+
+```
+git clone
+cd bnbClone
+yarn
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running Tests
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To run tests run the following command
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+yarn test
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Strategy
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Project management
 
-## Learn More
+- Plan with leads about the project and expected dates, and events
+  - Duration of sprint
+  - Sprint planning time
+  - Standup time
+  - Demo time
+- Set stories on project management tool, preferably jira board
+- Assign all stories to respective individuals
 
-To learn more about Next.js, take a look at the following resources:
+### Design team
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Research on mockup to be used, contextualizing
+    - Content and context
+    - Accessibility of the content
+    - User experience of the web
+- Start designs
+- Publish designs internally and reviews
+- Working on reviews and publish mockup
+- More research and reviews
+### Backend team
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Research on Technology to be used concerning
+  - App Scalability
+  - Code Maintainability
+  - Hosting service
+  - Developer proficiency and performance
+- Set priority of task according sprint
+- Work on task abiding by deadlines
 
-## Deploy on Vercel
+### Frontend team
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Research on Technology to be used based
+  - performance
+  - Scalability
+  - Maintainability
+  - Team proficiency
+- Set priority of task according to sprint
+- work on task abiding by deadlines
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+

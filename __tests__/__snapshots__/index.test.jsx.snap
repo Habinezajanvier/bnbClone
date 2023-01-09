@@ -5,11 +5,2626 @@ exports[`Home renders homepage unchanged 1`] = `
   <main
     class="main"
   >
-    <h1
-      class="text-3xl font-bold underline"
+    <div
+      class="heading"
     >
-      Hello world!
-    </h1>
+      <div
+        class="headingWrapper"
+      >
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+        <div
+          class="headerContainer"
+        >
+          <div
+            class="headerComponent"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M832.56 415.792c-8.336 0-35.202-.16-64.306-.368l.113-63.968c0-35.344-28.657-64-64-64l-640.496-.16c-35.344 0-64 28.656-64 64V832.24c0 106.032 85.967 192 192 192h384.656c106.032 0 191.008-85.968 191.008-192l.064-32.848c29.024.224 58.608.4 64.977.4 105.776 0 191.568-85.04 191.568-191.072-.016-106.048-85.808-192.928-191.584-192.928zM703.533 832.24c0 70.592-56.4 128-127.008 128H191.869c-70.592 0-128-57.408-128-128l-.096-480.944 640.592.192zm129.026-95.519c-6.352 0-35.888-.191-64.863-.4l.448-256.815c29.12.208 56.048.368 64.4.368 73.12 0 128.623 54.544 128.623 127.84S905.68 736.722 832.56 736.722zM575.87 223.762c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm-384 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32zm192 0c17.664 0 32-14.336 32-32v-160c0-17.664-14.336-32-32-32s-32 14.336-32 32v160c0 17.68 14.336 32 32 32z"
+              />
+            </svg>
+            <p>
+              Bed & Breakfast
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mainWrapper"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="imageHolder"
+        >
+          <img
+            alt="hotel_picture"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="descriptions"
+        >
+          <div>
+            <p
+              class="name"
+            >
+              Cape town, South Africa
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Hosted by Louise
+            </p>
+            <p
+              class="descriptionText"
+            >
+              Jan 10-15
+            </p>
+            <p
+              class="price"
+            >
+              <span>
+                $49
+              </span>
+               night
+            </p>
+          </div>
+          <div
+            class="rating"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p>
+              5.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <p>
+        copyright @hotel & co 
+        2023
+      </p>
+    </div>
   </main>
 </div>
 `;

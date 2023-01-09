@@ -783,6 +783,19 @@
   dependencies:
     tslib "^2.4.0"
 
+"@tanstack/query-core@4.20.9":
+  version "4.20.9"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.20.9.tgz#62eb14c2fd6688eaa507452881c96a2c8b6d2544"
+  integrity sha512-XTEEvOGy7wlABPTYfmg7U287WYcf2PV8lH15oKWD2I09okqMOHrB23WxyikEVRwJCjYNKcCW0BuYaAY4S2g/jg==
+
+"@tanstack/react-query@^4.20.9":
+  version "4.20.9"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.20.9.tgz#0ec2e734085570ce642ae7de8586eb31d562532c"
+  integrity sha512-OqwcmqkxOYgLbVjsMm4Cl8MMZ063VqdRw1GpSWqN8WgppftPiFJTDb6Q1TX5I/ciCbHmRWNPE/D0ayyTesAKug==
+  dependencies:
+    "@tanstack/query-core" "4.20.9"
+    use-sync-external-store "^1.2.0"
+
 "@testing-library/cypress@^9.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-9.0.0.tgz#3facad49c4654a99bbd138f83f33b415d2d6f097"
@@ -1319,6 +1332,15 @@ axe-core@^4.4.3:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.1.tgz#79cccdee3e3ab61a8f42c458d4123a6768e6fbce"
   integrity sha512-lCZN5XRuOnpG4bpMq8v0khrWtUOn+i8lZSb6wHZH56ZfbIEv6XwJV84AAueh9/zi7qPVJ/E4yz6fmsiyOmXR4w==
+
+axios@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.2.2.tgz#72681724c6e6a43a9fea860fc558127dbe32f9f1"
+  integrity sha512-bz/J4gS2S3I7mpN/YZfGFTqhXTYzRho8Ay38w2otuuDR322KzFIWm/4W2K6gIwvWaws5n+mnb7D1lN9uD+QH6Q==
+  dependencies:
+    follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -2516,6 +2538,11 @@ flatted@^3.1.0:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
+
+follow-redirects@^1.15.0:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -4367,6 +4394,11 @@ proxy-from-env@1.0.0:
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.0.0.tgz#33c50398f70ea7eb96d21f7b817630a55791c7ee"
   integrity sha512-F2JHgJQ1iqwnHDcQjVBsq3n/uoaFL+iPW/eAeL7kVxy/2RrWaN4WroKjjvbsoRtv0ftelNyC01bjRhn/bhcf4A==
 
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+  integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
+
 psl@^1.1.28, psl@^1.1.33:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.9.0.tgz#d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7"
@@ -4404,6 +4436,13 @@ quick-lru@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
+
+react-alice-carousel@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/react-alice-carousel/-/react-alice-carousel-2.7.0.tgz#d4bd2280cf39429042ddb15a1040fe2166f58afd"
+  integrity sha512-0QeqmBiGisvOk2UNCJoXQurX9beguhX2BbYwS540WxL7pbBzEXWV2tS7Al2tkWJyS4u6YTlQdwAV81Fk/PaTSg==
+  dependencies:
+    vanilla-swipe "^2.4.1"
 
 react-dom@18.2.0:
   version "18.2.0"
@@ -5112,6 +5151,11 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
+use-sync-external-store@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
+
 util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -5130,6 +5174,11 @@ v8-to-istanbul@^9.0.1:
     "@jridgewell/trace-mapping" "^0.3.12"
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
+
+vanilla-swipe@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/vanilla-swipe/-/vanilla-swipe-2.4.1.tgz#697d58bde3729db3c80fd3de488a54a8eae05664"
+  integrity sha512-o6pfI0dipet88ZnPLV4Jx04Ia+U3xANh14vhROW2TOe/mrwk2JGG68+Z0BPoD1YUcQQEnK4SZBXkqFe+K1l7/w==
 
 verror@1.10.0:
   version "1.10.0"

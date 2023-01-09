@@ -5,8 +5,23 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
 import App from "./_app";
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
 
 export default function Home() {
+  const { isLoading, error, data } = useQuery({
+    queryKey: ["repoData"],
+    queryFn: async () => {
+      const res = await axios.get(
+        "https://63b8599a3329392049da66ac.mockapi.io/api/v1/hotels"
+      );
+      console.log({ res });
+      return res.data;
+    },
+  });
+
+  console.log({ data });
+
   return (
     <>
       <Head>
@@ -27,9 +42,12 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.mainWrapper}>
-          {[...new Array(34)].map((e, i) => (
+          {[...new Array(20)].map((e, i: number) => (
             <Card key={i} />
           ))}
+          {/* {data?.map((e, i: number) => (
+            <Card key={i} />
+          ))} */}
         </div>
         <Footer />
       </main>
