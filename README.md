@@ -38,7 +38,7 @@ yarn test
 - Set stories on project management tool, preferably jira board
 - Assign all stories to respective individuals
 
-### Design team
+#### Design team
 
 - Research on mockup to be used, contextualizing
     - Content and context
@@ -48,7 +48,7 @@ yarn test
 - Publish designs internally and reviews
 - Working on reviews and publish mockup
 - More research and reviews
-### Backend team
+#### Backend team
 
 - Research on Technology to be used concerning
   - App Scalability
@@ -58,7 +58,7 @@ yarn test
 - Set priority of task according sprint
 - Work on task abiding by deadlines
 
-### Frontend team
+#### Frontend team
 
 - Research on Technology to be used based
   - performance
@@ -69,3 +69,4 @@ yarn test
 - work on task abiding by deadlines
 
 
+<img width="554" alt="Screen Shot 2023-01-11 at 21 23 53" src="https://user-images.githubusercontent.com/44426710/211899463-b1567cad-b896-4086-8dde-20356e42301d.png">
